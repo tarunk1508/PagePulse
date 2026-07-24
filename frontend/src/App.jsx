@@ -14,7 +14,7 @@ function App() {
     setResult(null);
 
     try {
-      const res = await axios.post("http://localhost:5000/audit", {
+      const res = await axios.post("https://pagepulse-backend-a1iy.onrender.com/audit", {
         url,
       });
 
